@@ -6,7 +6,7 @@
 
 이것은 VRChat API 사용에 대한 VRChat 팀의 공식 답변입니다.
 
-> Use of the API using applications other than the approved methods (website, VRChat application) are not officially supported. You may use the API for your own application, but keep these guidelines in mind:
+> 승인 된 사용처 이외의 애플리케이션 (웹 사이트, VRChat 애플리케이션)을 사용한 API 사용은 공식적으로 지원되지 않습니다. 자체 애플리케이션에서 API를 사용할 수 있지만 아래 지침을 명심하십시오.
 > * We do not provide documentation or support for the API.
 > * Do not make queries to the API more than once per 60 seconds.
 > * Abuse of the API may result in account termination.
