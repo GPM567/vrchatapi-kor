@@ -29,4 +29,4 @@ https://discord.gg/rj3YQQu #vrchat-api
 
 #번역한 분들
 [Discord 서버](https://discord.gg/tavnBBZ)
-Stephan Shio#7951
+/nStephan Shio#7951
