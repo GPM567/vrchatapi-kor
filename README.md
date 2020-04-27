@@ -12,7 +12,11 @@
 > * Abuse of the API may result in account termination.
 > * Access to API endpoints may break at any given time, with no warning.
 
-위에서 언급한대로 이 문서는 공식 VRChat 팀의 도움을 받지 않았습니다. 따라서 이 문서는 VRChat API의 공식문서가 아니고, 항상 최신 버전으로 업데이트되어 있지 않을 수도 있습니다. 페이지 또는 엔드포인트가 더 이상 유효하지 않다면 문제를 작성하여 저희에게 알려주십쇼.
+위에서 언급한대로 이 문서는 공식 VRChat 팀의 도움을 받지 않았습니다. 
+따라서 이 문서는 VRChat API의 공식문서가 아니고, 
+항상 최신 버전으로 업데이트되어 있지 않을 수도 있습니다. 
+페이지 또는 엔드포인트가 더 이상 유효하지 않다면 문제를 
+작성하여 저희에게 알려주십시오.
   
 # Discord 서버:
 
