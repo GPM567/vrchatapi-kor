@@ -1,6 +1,6 @@
 # VRChat API 문서
 
-As of late, this documentation has become quite outdated, many of the endpoints have changed since the last update, We are looking for some people to assist in maintaining this documentation.
+이 문서는 요즘 상당히 구식이 되었고, 마지막 업데이트 이후 많은 엔드포인트가 변경되었습니다. 그래서 저희는 이 문서를 유지, 보수하는데 도움을 줄 수 있는 분들을 찾고 있습니다.
 
 # Disclaimer
 
