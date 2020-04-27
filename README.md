@@ -14,11 +14,11 @@
 
 As stated, this documentation was not created with the help of the official VRChat team. Therefore this documentation is not an official documentation of the VRChat API and may not be always up to date with the latest versions. If you find that a page or endpoint is not longer valid please create an issue and tell us so we can fix it.
 
-# Get in touch with us!
+# Discord 서버:
 
 https://discord.gg/rj3YQQu #vrchat-api
 
-# Getting Started
+# 시작하기
 
 Now that you've read the information you should be ready to get started.
 [Getting Started](GettingStarted.md)
