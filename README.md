@@ -27,6 +27,6 @@ https://discord.gg/rj3YQQu #vrchat-api
 위 내용을 다 숙지하셨다면 이제 시작할 준비는 되셨겠죠?
 [시작하기](GettingStarted.md)
 
-#번역한 분들
+#번역한 분들  
 [Discord 서버](https://discord.gg/tavnBBZ)  
 **Stephan Shio#7951**
