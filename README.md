@@ -24,5 +24,5 @@ https://discord.gg/rj3YQQu #vrchat-api
 
 # 시작하기
 
-Now that you've read the information you should be ready to get started.
-[Getting Started](GettingStarted.md)
+위 내용을 다 숙지하셨다면 이제 시작할 준비는 되셨겠죠?
+[시작하기](GettingStarted.md)
