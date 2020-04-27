@@ -1,4 +1,4 @@
-# VRChat API Documentation
+# VRChat API 문서
 
 As of late, this documentation has become quite outdated, many of the endpoints have changed since the last update, We are looking for some people to assist in maintaining this documentation.
 
