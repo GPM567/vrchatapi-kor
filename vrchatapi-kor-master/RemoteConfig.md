@@ -1,42 +1,42 @@
-# 원격 구성
+# Remote Config
 
-원격 구성에는 클라이언트가 올바르게 작동해야만하는 것들이 포함되어 있습니다.
+Remote config contains configuration that the clients needs to work properly.
 
-현재 가장 중요한 것은 다른 모든 API에 사용되는`clientApiKey '입니다.
+Currently the most important value here is the `clientApiKey` as it is used for every other API 
 
-## 요청 방법
+## Request Method 
 GET
 
-## 엔드포인트
+## Endpoint
 https://api.vrchat.cloud/api/1/config
 
-## 인증이 필요한가?
-필요없음
+## Requires Authentication
+No
 
-## 반환
+## Returns
 
 Field | Type | Description
 ------|------|------------
-messageOfTheDay | string | 알 수 없음 (미사용)
-timeOutWorldId | string | 플레이어가 밴을 당한다면 이 세계로 가게됩니다.
-gearDemoRoomId | string | 알 수 없음 (미사용)
-releaseServerVersionStandalone | string | 서버 릴리즈 버전 (미사용)
-downloadLinkWindows | string | 게임을 다운로드 할 위치
-releaseAppVersionStandalone | string | 게임 릴리즈 버전
-devAppVersionStandalone | string | 게임 개발자용 릴리즈 버전
-devServerVersionStandalone | string | 개발을 위한 서버 버전
-devDownloadLinkWindows | string | 개발자 다운로드 링크 (미사용)
-currentTOSVersion | int | 현재 TOS 버전 (Terms Of Service)
-releaseSdkUrl | string | 공식 유니티 SDK 패키지 버전
-releaseSdkVersion | string | 공식 SDK 버전
-devSdkUrl | string | 개발중인 유니티 SDK 패키지 링크
-devSdkVersion | string | 개발용 SDK 버전
-whiteListedAssetUrls | array | 에셋의 허용된 다운로드 위치
-clientApiKey | string | client에 의해 사용되는 API키
-viveWindowsUrl | string | VRChat이 Vive를 지원하기 전에이 기능을 사용하려면 먼저 다운로드해야합니다. Steam 상점 페이지로 리디렉션됩니다.
-sdkUnityVersion | string | SDK가 지원하는 Unity 버전
-hubWorldId | string | 허브 세계의 ID
-homeWorldId | string | 기본 스폰 월드의 ID
+messageOfTheDay | string | Unknown (unused)
+timeOutWorldId | string | The client goes to this world if banned from public instances
+gearDemoRoomId | string | Unknown (unused)
+releaseServerVersionStandalone | string | Release server version (unused)
+downloadLinkWindows | string | Where you would originally download the game
+releaseAppVersionStandalone | string | Release game build
+devAppVersionStandalone | string | Development game build
+devServerVersionStandalone | string | Server version for development build
+devDownloadLinkWindows | string | the developer download link (Unused)
+currentTOSVersion | int | Current TOS version
+releaseSdkUrl | string | Public SDK unitypackage link
+releaseSdkVersion | string | Public SDK version
+devSdkUrl | string | Development SDK unitypackage link
+devSdkVersion | string | Development SDK version
+whiteListedAssetUrls | array | Whitelisted download locations for assets
+clientApiKey | string | API key used by the client
+viveWindowsUrl | string | Before VRChat had support for vive you would have to download this in order for it to work, now redirects to the game's Steam store page
+sdkUnityVersion | string | Unity version supported by the SDK
+hubWorldId | string | ID of the hub world
+homeWorldId | string | ID of the default spawn in world
 tutorialWorldId | string | ID of the world used for introduction to the game
 disableEventStream | boolean | If true, the client won't send analytics about your current world (not used in client)
 disableAvatarGating | boolean | If true, anyone can upload avatars, otherwise, only those with specific tags can (new user and higher)

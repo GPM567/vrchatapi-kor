@@ -7,10 +7,10 @@
 이것은 VRChat API 사용에 대한 VRChat 팀의 공식 답변입니다.
 
 > 승인 된 사용처 이외의 애플리케이션 (웹 사이트, VRChat 애플리케이션)을 사용한 API 사용은 공식적으로 지원되지 않습니다. 자체 애플리케이션에서 API를 사용할 수 있지만 아래 지침을 명심하십시오.
-> * API에 대한 문서나 지원은 제공하지 않습니다.
-> * 60초 안에 API를 2번 이상 호출하지 마십시오.
-> * API를 남용하면 계정이 막히게 될 수 있습니다.
-> * API 엔드 포인트에 대한 액세스는 경고없이 언제든지 중단 될 수 있습니다.
+> * We do not provide documentation or support for the API.
+> * Do not make queries to the API more than once per 60 seconds.
+> * Abuse of the API may result in account termination.
+> * Access to API endpoints may break at any given time, with no warning.
 
 위에서 언급한대로 이 문서는 공식 VRChat 팀의 도움을 받지 않았습니다. 
 따라서 이 문서는 VRChat API의 공식문서가 아니고, 
@@ -27,6 +27,6 @@ https://discord.gg/rj3YQQu #vrchat-api
 위 내용을 다 숙지하셨다면 이제 시작할 준비는 되셨겠죠?
 [시작하기](GettingStarted.md)
 
-# 번역한 인간  
+#번역한 분들  
 [Discord 서버](https://discord.gg/tavnBBZ)  
 **Stephan Shio#7951**

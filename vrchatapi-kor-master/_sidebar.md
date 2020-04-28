@@ -1,8 +1,8 @@
-- [정보](README.md)
-- [시작하기](GettingStarted.md)
+- [Disclaimer](README.md)
+- [Getting Started](GettingStarted.md)
 - [Secret Worlds](SecretWorlds.md)
 - Endpoints
-    - [원격 구성](RemoteConfig.md)
+    - [Remote Config](RemoteConfig.md)
     - User API
         - [Tags](UserAPI/Tags.md)
         - [Register](UserAPI/Register.md)

@@ -1,53 +1,52 @@
-# VRChat API Documentation
+# VRChat API 문서
 
-!> **Super Important!** Using this API is allowed for non malicious usage. Abuse of the API may result in account termination!
+!> **아주 아주 중요함!** 이 API를 사용하는 것은 악의적이지 않은 의도에 한해서 허용됩니다. API를 남용하는 것은 당신의 계정이 정지되도록 만들 수 있습니다!
 
-?> These docs are for SDK version `2018.05.04.09.53` and build tag `build-18-05-18-noah-salmon`
+?> 이 문서는 SDK 버전 `2018.05.04.09.53` 용이고, 빌드 태그는 `build-18-05-18-noah-salmon` 입니다.
 
-# Documentation Information
+# 문서 정보
+**Outdated**으로 표시된 문서 섹션은, 단락 또는 엔드 포인트가 더 이상 현재 API 버전에서 지원되지 않거나 엔드 포인트가 여전히 작동하는지 저희가 확인하는 중임을 의미합니다.
 
-Sections of the documentation which are labeled **Outdated** means the the article or endpoint is no longer supported be the current API version or we are still working on making sure the endpoint is still working.
+**Soon**이라고 표시된 섹션은 진행중인 단락이며 향후 업데이트시 문서에 추가됩니다.
 
-Sections labeled **Soon** are work in progress articles and will be added to the documentation on future updates.
+**BETA**로 표시된 섹션은 VRChat의 베타 클라이언트에서 발견되는 API 엔드 포인트이며 기능이 완성되면 변경 될 수 있습니다.
 
-Sections labeled **BETA** are API endpoints found in the beta client of VRChat, and are subject to change as the features are finalized.
+# API 라이브러리
 
-# API Libraries
-
-1. ~~VRChatJava (Java) https://github.com/VRChatAPI/VRChatJava~~ outdated
+1. ~~VRChatJava (Java) https://github.com/VRChatAPI/VRChatJava~~ 구식
 
 2. VRChat.Net (C#) https://github.com/VRChatAPI/VRChat.Net
 
 
-# Links to APIs
+# API에 대한 링크
 
 Right now there are 3 different options
 
-1. Dev API - https://dev-api.vrchat.cloud/api/1/ (Not Documented)
-2. Beta API - https://beta-api.vrchat.cloud/api/1/ (Not Documented)
+1. Dev API - https://dev-api.vrchat.cloud/api/1/ (문서화 되지 않음)
+2. Beta API - https://beta-api.vrchat.cloud/api/1/ (문서화 되지 않음)
 3. Release API - https://api.vrchat.cloud/api/1/
 
-In the docs we just use the Release but you can manually change it if needed
+이 문서에서 저희는 그냥 릴리즈를 사용하지만, 필요에 따라 당신이 직접 변경할 수 도 있습니다.
 
-# Quick overview
+# 빠른 개요
 
-VRChat uses the HTTP procotol to get basic information from the server and send information to the server.
+VRChat은 HTTP 프로토콜을 사용하여 서버에서 서버로 기본 정보를 가져와 정보를 보냅니다.
 
-## Authentication
+## 인증
 
-Most of the APIs require you to be authenticated.
+대부분의 API는 인증을 요구합니다.
 
-There are two ways to authenticate (technically one)
+인증하는 방법에는 두가지가 있습니다. (기술적으로 보자면 하나입니다.)
 
-1. Send the Authorization header with Basic authentication
-2. After calling the any API with Basic authentication save and reuse the returned `auth` cookie.
+1. 인증 헤더를 기본 인증과 함께 보내기
+2. 기본 인증으로 API를 호출 한 후 반환 된 `auth` 쿠키를 저장하고 재사용하기
 
-The second option is probably more recommended
+후자를 추천드립니다.
 
-## Client API Key
+## 클라이언트 API 키
 
-Every API requires you to give a special API key. To get it simply call the [Remote Config](RemoteConfig.md) endpoint.
+모든 API에는 특별한 API 키가 필요합니다. 간단히 [원격 구성](RemoteConfig.md) 에서 엔드 포인트를 호출하십시오.
 
-The API key is passed in a query string named `apiKey`
+API 키는 `apiKey`라는 쿼리 문자열로 전달됩니다. 
 
-?> Last Known key is `JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26`
+?> 마지막으로 알려진 키는 `JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26`입니다.
